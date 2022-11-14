@@ -12,7 +12,7 @@
     }
 }
 
-@media screen and (max-width: 768pxpx) {
+@media screen and (max-width: 768px) {
     .places {
         padding: 88px 24px;
         max-width: 720px;

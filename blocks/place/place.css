@@ -19,7 +19,7 @@ column-gap: 40px;
    }  
  }
 
-@media screen and (max-width: 768pxpx) {
+@media screen and (max-width: 768px) {
     .place {
         column-gap: 28px;
    }  
@@ -30,6 +30,5 @@ column-gap: 40px;
         grid-template-columns: 100%;
         row-gap: 32px;
         column-gap: 0;
-        grid-template-columns: 1fr;
     }  
 }
