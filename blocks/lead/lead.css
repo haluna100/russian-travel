@@ -1,0 +1,28 @@
+.lead {
+    margin: 0;
+    padding: 56px 148px 92px;
+    min-height: 100%;
+    display: grid;
+    grid-template: 200px 168px 615px / 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        padding: 48px 48px 92px;
+        grid-template: 200px 160px 580px / 100%;
+    }  
+ }
+
+@media screen and (max-width: 768pxpx) {
+    .lead {
+        padding: 48px 0 88px;
+        grid-template: 200px 160px 480px / 100%;
+    }  
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        padding: 48px 0 64px;
+        grid-template: 88px 96px 200px / 100%;
+    }  
+}

@@ -1,0 +1,28 @@
+.cover {
+margin: 0;
+text-decoration: none;
+}
+
+.cover:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s linear 0s;
+  }
+
+@media screen and (max-width=1024px) {
+    .cover { 
+        padding: 0;
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768pxpx) {
+    .cover {
+        max-width: 720px;
+    }  
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-width: 320px;
+    }  
+}
