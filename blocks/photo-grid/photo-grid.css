@@ -2,7 +2,7 @@
     display: grid;
     grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr;
     column-gap: 16px;
-    row-gap: 16px;;
+    row-gap: 16px;
     max-width: 1184px;
     min-height: 671px;
     margin: 0 auto;
@@ -14,7 +14,7 @@
     .photo-grid {
         grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr;
         column-gap: 14px;
-        row-gap: 14px;;
+        row-gap: 14px;
         max-width: 928px;
     }
 }
@@ -24,7 +24,7 @@
         padding: 88px 24px;
         grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr;
         column-gap: 16px;
-        row-gap: 16px;;
+        row-gap: 16px;
         max-width: 720px;
     }
 }
