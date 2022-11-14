@@ -15,7 +15,7 @@ text-decoration: none;
     }
 }
 
-@media screen and (max-width: 768pxpx) {
+@media screen and (max-width: 768px) {
     .cover {
         max-width: 720px;
     }  

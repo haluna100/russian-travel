@@ -11,7 +11,7 @@ align-items: start;
         padding-left: 48px;    }  
  }
 
-@media screen and (max-width: 768pxpx) {
+@media screen and (max-width: 768px) {
     .intro {
         padding-left: 24px;    }  
 }

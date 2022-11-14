@@ -13,7 +13,7 @@
     }  
  }
 
-@media screen and (max-width: 768pxpx) {
+@media screen and (max-width: 768px) {
     .lead {
         padding: 48px 0 88px;
         grid-template: 200px 160px 480px / 100%;
