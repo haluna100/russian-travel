@@ -1,6 +1,7 @@
 .cover {
 margin: 0;
 text-decoration: none;
+max-width: 100%;
 }
 
 .cover:hover {
@@ -11,7 +12,6 @@ text-decoration: none;
 @media screen and (max-width=1024px) {
     .cover { 
         padding: 0;
-        max-width: 1024px;
     }
 }
 
