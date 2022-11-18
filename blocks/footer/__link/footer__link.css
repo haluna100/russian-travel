@@ -18,7 +18,7 @@
     transition: opacity 0.3s linear 0s;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 520px) {
     .footer__link {
         padding-bottom: 32px;
     }  
