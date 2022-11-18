@@ -7,26 +7,12 @@
     color: #FFFFFF;
     margin: 0 auto;
     max-width: 560px;
-    padding-top: 245px;
-    z-index: 2;
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__title {
-        padding-top: 195px;
-    }  
-}
-
-@media screen and (max-width: 768px) {
-    .cover__title {
-        padding-top: 115px;
-    }  
+    z-index: 1;
 }
 
 @media screen and (max-width: 500px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        padding-top: 33px;
     }  
 }
