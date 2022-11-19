@@ -12,16 +12,24 @@ column-gap: 40px;
     padding-top: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .place {
-        column-gap: 32px;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 32px,
    }  
  }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: minmax(min-content, 300px) minmax(320px, 1fr);
+   }  
+ }
+
+@media screen and (max-width: 870px) {
     .place {
         column-gap: 28px;
         padding-top: 73px;
+        grid-template-columns: repeat(2, 1fr);
    }  
 }
 
@@ -30,5 +38,6 @@ column-gap: 40px;
         grid-template-columns: 100%;
         row-gap: 32px;
         column-gap: 0;
+        padding-top: 50px;
     }  
 }

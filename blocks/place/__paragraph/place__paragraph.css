@@ -6,10 +6,11 @@
     line-height: 163%;
     color: #FFFFFF;
     margin: 0;
+    padding-bottom: 26px;
 }
 
-.place__paragraph:first-of-type {
-    padding-bottom: 26px;
+.place__paragraph:last-of-type {
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
