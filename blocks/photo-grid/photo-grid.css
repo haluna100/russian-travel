@@ -29,6 +29,6 @@
         padding: 64px 16px 0;
         grid-template-columns: 1fr;
         gap: 12px;
-        max-width: 100%
+        max-width: 100%;
     }  
 }
