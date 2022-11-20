@@ -29,7 +29,7 @@ column-gap: 40px;
     .place {
         column-gap: 28px;
         padding-top: 73px;
-        grid-template-columns: minmax(min-content, 340px) minmax(340px, 1fr)
+        grid-template-columns: minmax(min-content, 340px) minmax(340px, 1fr);
    }  
 }
 
