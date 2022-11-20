@@ -3,7 +3,7 @@ margin: 0;
 max-width: 984px;
 padding-top: 80px;
 display: grid;
-grid-template-columns: minmax(min-content, 300px) minmax(320px, 1fr);
+grid-template-columns: minmax(min-content, 460px) minmax(460px, 1fr);
 row-gap: 48px;
 column-gap: 40px;
 }
@@ -21,7 +21,7 @@ column-gap: 40px;
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: minmax(min-content, 300px) minmax(320px, 1fr);
+        grid-template-columns: minmax(min-content, 440px) minmax(440px, 1fr);
    }  
  }
 
@@ -29,7 +29,7 @@ column-gap: 40px;
     .place {
         column-gap: 28px;
         padding-top: 73px;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: minmax(min-content, 340px) minmax(340px, 1fr)
    }  
 }
 
