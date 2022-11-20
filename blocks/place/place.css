@@ -25,15 +25,21 @@ column-gap: 40px;
    }  
  }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 950px) {
     .place {
         column-gap: 28px;
         padding-top: 73px;
-        grid-template-columns: minmax(min-content, 340px) minmax(340px, 1fr);
+        grid-template-columns: repeat(2, 1fr);
    }  
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: minmax(min-content, 340px) minmax(340px, 1fr)
+   }  
+}
+
+@media screen and (max-width: 700px) {
     .place {
         grid-template-columns: 100%;
         row-gap: 32px;
